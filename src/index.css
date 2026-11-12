@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html { scroll-behavior: smooth; }
+body { @apply bg-white font-sans text-mute antialiased; }
+h1, h2, h3, h4 { @apply text-ink tracking-tight; }
